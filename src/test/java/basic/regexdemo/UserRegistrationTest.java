@@ -28,8 +28,9 @@ public class UserRegistrationTest {
 	public void shouldReturnTrueIfEmailIsValid() {
 		assertTrue(myobj.validateEmailId("mdmohsin41439@gmail.com"));
 	}
-    
-
-
 	
+	@Test
+	public void shouldReturnTrueIfMobileNumberIsValid() {
+		assertTrue(myobj.validateMobileNumberId("91 9908514276"));
+	}
 }
