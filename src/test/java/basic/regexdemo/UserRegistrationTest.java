@@ -33,4 +33,13 @@ public class UserRegistrationTest {
 	public void shouldReturnTrueIfMobileNumberIsValid() {
 		assertTrue(myobj.validateMobileNumberId("91 9908514276"));
 	}
+	
+	@Test
+	public void shouldReturnTrueIfPasswordIsValid() {
+		assertTrue(myobj.validatePasswordId("Md7867#"));
+	}
+	
+	
+	
+	
 }
