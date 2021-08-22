@@ -23,4 +23,13 @@ public class UserRegistrationTest {
 	public void shouldReturnTrueIfLastNameStartsWithCapAndHasMinimumThreeCharacters() {
 		assertTrue(myobj.validateLastName("Mohammad"));
 	}
+	
+	@Test
+	public void shouldReturnTrueIfEmailIsValid() {
+		assertTrue(myobj.validateEmailId("mdmohsin41439@gmail.com"));
+	}
+    
+
+
+	
 }
