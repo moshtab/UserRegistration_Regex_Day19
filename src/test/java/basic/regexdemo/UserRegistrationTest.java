@@ -18,10 +18,9 @@ public class UserRegistrationTest {
 	public void shouldReturnTrueIfFirstNameStartsWithCapAndHasMinimumThreeCharacters() {
 		assertTrue(myobj.validateFirstName("Mohammad"));
 	}
-
+	
 	@Test
 	public void shouldReturnTrueIfLastNameStartsWithCapAndHasMinimumThreeCharacters() {
-		assertTrue(myobj.validateLastName("Mohsin"));
+		assertTrue(myobj.validateLastName("Mohammad"));
 	}
-
 }
